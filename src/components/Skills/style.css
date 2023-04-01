@@ -1,0 +1,36 @@
+#Skills {
+  margin-left: 14rem;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+}
+
+.tools-right {
+  margin-right: 32rem;
+}
+
+.tools-left {
+  margin-right: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #Skills {
+    margin-left: 7rem;
+  }
+
+  .tools {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tools-right {
+    margin-right: 0;
+    align-items: center;
+  }
+  .tools-left {
+    margin-right: 0;
+    align-items: center;
+  }
+}

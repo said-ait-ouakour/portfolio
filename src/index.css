@@ -1,0 +1,21 @@
+.home-section {
+  background-color: black;
+  height: max-content;
+  padding: 0;
+  margin: 0;
+}
+
+.nav{
+    background-color: black;
+}
+
+
+@media (max-width: 767px) {
+
+  .line-split {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+}

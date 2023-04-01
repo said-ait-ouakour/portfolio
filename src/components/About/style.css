@@ -1,0 +1,39 @@
+.about-section{
+  padding-top: 13.88rem;
+  padding-left: 12rem;
+}
+
+.design-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-btn {
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .about-section {
+    /* margin-left: .4rem; */
+    padding-left: 0rem !important;
+    padding-top: 3rem !important;
+  }
+
+  .description-text {
+    width: 100% !important;
+    line-height: 4rem;
+  }
+
+  .design-container {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+
+  .line-split {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}

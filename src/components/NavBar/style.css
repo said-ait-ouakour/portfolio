@@ -1,0 +1,62 @@
+.nav-links > li {
+  list-style-type: none;
+}
+
+.nav-links > li > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  nav {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  .responsive-nav {
+    transform: none;
+    visibility: visible;
+    padding: 10rem;
+    position: absolute;
+    background: black;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  nav .nav-btn:last-child {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .responsive-nav .nav-close-btn {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .responsive-nav .nav-btn:last-child {
+    visibility: hidden;
+  }
+}

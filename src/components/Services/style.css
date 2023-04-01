@@ -1,0 +1,29 @@
+#Services {
+  align-items: center;
+  margin-left: 14rem;
+}
+
+.services-section {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .services-section {
+    display: flex;
+    flex-direction: column;
+  }
+  #Services {
+    margin-left: 7rem;
+  }
+
+  .grp-2 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  .grp-3 {
+    margin-top: 8.28rem;
+  }
+}
