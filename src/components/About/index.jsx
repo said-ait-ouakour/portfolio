@@ -11,7 +11,7 @@ const About = () => {
         <div className='description-text container h-[50vh] w-[37%] text-[2.8rem] text-white pl-[3rem] leading-[2.28rem]'>
           <h1>
             Hi I'm Said A<span className='text-primary'>.</span>
-          </h1>
+          </h1> 
           <div class='labels text-[1.63rem] leading-[2.28rem] flex items-center w-[46.75rem] h-[3.88rem]'>
             Data Engineer / Web Developer / Web Scrapper
           </div>

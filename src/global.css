@@ -5,9 +5,14 @@
 @tailwind utilities;
 body {
   @apply leading-[normal] m-0;
+  padding: 0;
+  margin: 0;
+  width: max-content;
 }
 *,
 ::before,
 ::after {
   border-width: 0;
 }
+
+
