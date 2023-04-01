@@ -1,6 +1,6 @@
 {
     "name": "portfolio-sid",
-    "homepage": "https://moon41x4.github.io/",
+    "homepage": "http://moon41x4.github.io/portfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -30,10 +30,8 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "eject": "react-scripts eject"
+        "deploy": "gh-pages -d build"
     },
     "browserslist": {
         "production": [
